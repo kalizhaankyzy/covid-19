@@ -1,0 +1,18 @@
+.Data{
+    background-color: rgb(24,23,54);
+    font-size: calc(8px + 2vmin);
+    text-align: left;
+}
+.info{
+    margin-left: 7%;
+}
+.country-name{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: calc(18px + 2vmin);
+}
+.footer{
+    font-size: calc(0.3px + 2vmin);
+    color: rgb(140, 140, 153);
+    margin-left: 7%;
+}

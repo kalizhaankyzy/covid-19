@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  app:
+    build: ./covid-info
+    volumes:
+      # - ./covid-info:devops/covid-info
+      - /Users/macbookair/Documents/devops/covid-info/node_modules
+    ports:
+      - 5000:3000
+    environment:
+      - WDS_SOCKET_PORT=0

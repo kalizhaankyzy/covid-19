@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+  background-color: rgb(24,23,54);
+  min-height: 100vh;
+  font-size: calc(18px + 2vmin);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+a{
+  color: rgb(251, 116, 118);
+}
+.highlight{
+  color: rgb(251, 116, 118);
+}
+
